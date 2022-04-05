@@ -1,0 +1,101 @@
+body{
+    margin:0;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size:35px;
+    color:white;
+    
+}
+
+.cartes_croupier img,.cartes_joueur img{
+    margin-right: 3px;
+    margin-left: 3px;
+
+}
+
+
+.page{
+    display:flex;
+    flex-direction:column;
+    background-image: url("fond.png");
+}
+
+
+
+.croupier{
+    height:45vh;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    color:white;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.button{
+    display:flex;
+    height:10vh;
+    justify-content:center;
+    align-items:center;
+}
+
+#tirer,#rester{
+    display:none;
+}
+
+#tirer.afficher, #rester.afficher{
+    display:block;
+}
+
+button{
+    background-color: #0d5a0f; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-right:10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.joueur{
+    height:45vh;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    color:white;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+img{
+    height:200px;
+    width:150px;
+}
+
+.welcome{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.title_welcome{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:20vh;
+}
+
+.play{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:80vh;
+}
