@@ -1,4 +1,4 @@
-# First JS project : blakcjack
+# First JS project : blackjack
 
 This is my first js project. This is an online blackjack. The version is not finished but functional.
 
