@@ -1,6 +1,4 @@
-<img src="./images/logo.sample.png" alt="Logo of the project" align="right">
-
-# First JS project : blakcjack &middot; 
+# First JS project : blakcjack
 
 This is my first js project. This is an online blackjack. The version is not finished but functional.
 
